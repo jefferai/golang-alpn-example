@@ -223,7 +223,7 @@ func runFooClient() {
 			uuid, _ := uuid.GenerateUUID()
 			id := uuid + "\n"
 			conn.SetWriteDeadline(time.Now().Add(2 * time.Second))
-			_, err = wtr.WriteString(id + "\n")
+			_, err = wtr.WriteString(id)
 			if err != nil {
 				fmt.Printf("error during foo client writing: %v\n", err)
 				continue
