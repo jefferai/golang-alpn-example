@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "mAkPa/RLuIwN53GbwIEMATexams=",
+			"path": "github.com/hashicorp/go-uuid",
+			"revision": "64130c7a86d732268a38cb04cfbaf0cc987fda98",
+			"revisionTime": "2016-07-17T02:21:40Z"
+		},
+		{
+			"checksumSHA1": "VuTn2jF84UGRlOTTeLnAkIC2gFM=",
+			"path": "golang.org/x/net/http2",
+			"revision": "57bfaa875b96fb91b4766077f34470528d4b03e9",
+			"revisionTime": "2016-08-03T15:39:36Z"
+		},
+		{
+			"checksumSHA1": "EYNaHp7XdLWRydUCE0amEkKAtgk=",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "57bfaa875b96fb91b4766077f34470528d4b03e9",
+			"revisionTime": "2016-08-03T15:39:36Z"
+		},
+		{
+			"checksumSHA1": "yhndhWXMs/VSEDLks4dNyFMQStA=",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "57bfaa875b96fb91b4766077f34470528d4b03e9",
+			"revisionTime": "2016-08-03T15:39:36Z"
+		}
+	],
+	"rootPath": "alpnexample"
+}
