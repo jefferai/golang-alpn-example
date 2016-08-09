@@ -27,8 +27,9 @@ import (
 // This program demonstrates using ALPN with TLS to handle both HTTP/2 traffic
 // and an arbitrary protocol called "foo". Although this method of multiplexing
 // requires multiple TCP connections, the number is few (since HTTP/2 reuses
-// connections and multiplexes), and the same port can be used because the
-// protocol switch happens during TLS negotiation.
+// connections and multiplexes and yamux can be layered on top of a given
+// net.Conn), and the same port can be used because the protocol switch happens
+// during TLS negotiation.
 //
 // The sleep times are distinct between the foo and HTTP/2 clients to make it
 // clear that they are running concurrently/async.
